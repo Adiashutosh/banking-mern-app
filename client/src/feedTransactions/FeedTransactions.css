@@ -1,0 +1,9 @@
+.feedTransactions{
+    flex: 9;
+}
+
+.feedTransactionsWrapper{
+    margin-top: 20px;
+    padding: 10px;
+    
+}

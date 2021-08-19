@@ -1,0 +1,117 @@
+.postUser{
+    margin-bottom: 20px;
+    background-color: rgb(255, 242, 217);
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 24px 5px #000000; 
+box-shadow: 0px 0px 24px 5px #000000;
+}
+
+.postUserWrapper {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.postUserWrapper span{
+    
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 30px;
+}
+
+.postUserTop{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.postUserTopLeft{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.postUserTopRight{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.postUserCenter{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    
+}
+
+.postUserCenterLeft{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.postUserCenterRight{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* .postUserCenterRight button{
+    border: none;
+    border-radius: 10px;
+    background-color: wheat;
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 400;
+} */
+
+.postUserCenterRight button:focus{
+    outline: none;
+}
+
+.postUserBottom{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.postUserBottomLeft select{
+    background-color: wheat;
+    color: black;
+    border: none;
+    width: 210px;
+    border-radius: 10px;
+    height: 30px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.option{
+    font-size: 25px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    background-color: wheat;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.postUserBottomRight input{
+    background-color: wheat;
+    color: black;
+    border: none;
+    width: 150px;
+    border-radius: 20px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+.postUserBottomRight input:focus{
+    outline: none;
+    
+}
